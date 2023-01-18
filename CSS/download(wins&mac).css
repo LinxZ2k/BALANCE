@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --light-grey:#C8C8C8;
+}
+
+/*PC banner*/
+.computer_banner{
+    margin: 55px 0px;
+}
+.computer_banner img{
+    display: block;
+    margin: 0 auto;
+}
+
+/*PC description*/
+.computer_description{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.computer_description h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.computer_description blockquote p{
+    padding: 0px 10px;
+    line-height: 28px;
+}
+
+/*Download Mac and Window*/
+.d_computer_wrapper{
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+.d_pc_cards{
+    background-color: white;
+    width: 300.5px;
+    height: 300px;
+    border: 1px solid var(--light-grey);
+    border-radius: 8px;
+    text-align: center;
+}
+.d_pc_cards img{
+    margin: 25px 0px;
+}
+.d_pc_cards h2,h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.d_pc_cards h3{
+    margin-top: 6px;
+    margin-bottom:22px;
+    color: #636363;
+}
+/*Download btn*/
+.d_pc_cards a button{
+    width: 150px;
+    height: 42px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.d_pc_cards a button:hover{
+    opacity: 0.96;
+    color: rgba(255, 255, 255, 0.799);
+    font-size: 14.9px;
+    transition: 0.5s all;
+}
+/*Mac position*/
+.d_mac{
+    margin-left: 0;
+}
+
+
+
+@media only screen and (max-width:600px){
+    /*Download Mac and Window*/
+    .d_pc_cards{
+        margin: 0 auto;
+    }
+    /*Mac position*/
+    .d_mac{
+        margin-top: 45px;
+    }
+}
+
+@media only screen and (min-width:600px){
+    /*Download Mac and Window*/
+    .d_computer_wrapper{
+        display: block;
+    }
+    .d_pc_cards{
+        margin: 0 auto;
+    }
+    /*Mac position*/
+    .d_mac{
+        margin-top: 45px;
+    }
+
+}
+
+@media only screen and (min-width:768px){
+    /*Download Mac and Window*/
+    .d_computer_wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .d_pc_cards{
+        margin: 0;
+    }
+    /*Mac position*/
+    .d_mac{
+        margin-left: 45px;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width:992px){
+    /*PC description*/
+    .computer_description h1{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    /*PC description*/
+    .computer_description h1{
+        font-size: 55px;
+    }
+    /*Download Mac and Window*/
+    .d_computer_wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .d_pc_cards{
+        margin: 0;
+    }
+    /*Mac position*/
+    .d_mac{
+        margin-left: 45px;
+        margin-top: 0;
+    }
+}

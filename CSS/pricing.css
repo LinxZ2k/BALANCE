@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --red:#FF5959;
+    --orange:#FFB762;
+    --light-grey:#C8C8C8;
+}
+
+/*pricing texts*/
+.pricing_text{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 35px;
+    /* z-index: -1;
+    position: absolute; */
+    width: 100%;
+}
+.pricing_text p{
+    margin-top: 10px;
+}
+.pricing_text p a{
+    color: var(--red);
+}
+
+/*Card wrapper*/
+.cards_container{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.cards_container h1, h2{
+    font-family: 'Chakra Petch', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.cards_container p{
+    font-family: 'Inter', sans-serif;
+}
+
+/*Cards*/
+.cards{
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid var(--light-grey);
+    width: 320px;
+}
+.pricing_caption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.pricing_caption h2{
+    margin-left:10px;
+}
+.pricing_price{
+    margin-top: 30px;
+}
+.pricing_price p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #757575;
+    margin-top: 8px;
+}
+.features{
+    margin-top: 32px;
+}
+.features span{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0px 20px;
+}
+.features span p{
+    margin-left: 15px;
+}
+
+
+/*Free*/
+.free_card{
+    height: 477px;
+}
+
+
+/*Pro*/
+.recommend{
+    background-color: var(--orange);
+    width: 100%;
+    height: 65px;
+    margin-top: 35px;   
+}
+.recommend p{
+    font-size: 32px;
+    padding-top: 12px;
+    color: white;
+}
+.pro_card{
+    height: 655px;
+}
+
+/*Premium*/
+.premium_card{
+    height: 490px;
+}
+
+/*Get started btn*/
+.gs_btn{
+    margin: 20px 0px;
+}
+.gs_btn a{
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    font-family: 'Chakra Petch', sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 145px;
+    padding: 12px 0px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.gs_btn a:hover{
+    opacity: 0.95;
+    transition: 0.3s all;
+}
+
+
+@media only screen and (max-width:600px){
+     /*Cards*/
+     .cards{
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width:600px){
+    /*Cards*/
+    .cards{
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    /*Cards*/
+    .cards{
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width:992px){
+    /*Cards wrapper*/
+    .cards_container{
+        display: flex;
+        justify-content: space-around;
+    }
+    /*Cards*/
+    .cards{
+        width: 310px;
+        margin-bottom: 0px;
+    }
+    /*Free + premium*/
+    .free_card,.premium_card{
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    /*Cards*/
+    .cards{
+        width: 320px;
+    }
+}

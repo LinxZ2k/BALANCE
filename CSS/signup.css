@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  --grey:#6F6F6F;
+  --light-grey:#C8C8C8;
+  --light-whitesmoke:#F6F6F6;
+}
+
+/* Logo */
+#logo {
+  margin-left: 65px;
+  margin-top: 45px;
+}
+
+/* Creating account */
+.signup-items > * {
+  margin: 16px auto;
+}
+
+.create-acc {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 25px;
+
+}
+
+.signup-w-btn {
+  display: block;
+  border: 1px solid var(--light-grey);
+  border-radius: 3px;
+  background-color: white;
+  padding: 15px;
+  width: 355px;
+  height: 50px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.signup-w-btn > img, p {
+  margin-bottom: 2px;
+}
+
+.signup-w-btn > img {
+  width: 22px;
+  height: 22px;
+  float: left;
+}
+
+.signup-w-btn > p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin-left: 12px;
+  float: left;
+}
+
+.signup-w-btn:hover{
+  opacity: 0.8;
+  transition: all 0.4s;
+}
+
+/* 'Or' line break */
+div.or {
+  margin: 0 auto;
+  width: 365px;
+  position: relative;
+} /* parent div */
+
+div.or > img {
+  width: 365px;
+  height: 4px;
+  opacity: 0.4;
+} /* line img */
+
+div.or > p  {
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  width: 28px;
+  text-align: center;
+
+  position: absolute;
+  top: 0;
+  right: 50%;
+  margin-right: -14px;
+} /* 'or' text */
+
+/* Sign up form */
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form p {
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+form input::placeholder {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  opacity: 0.8;
+}
+
+form input {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+}
+
+.input-box {
+  padding: 14px;
+  width: 355px;
+  height: 50px;
+  background:var(--light-whitesmoke);
+  border: 0.5px solid var(--light-grey);
+  border-radius: 3px;
+  margin-top: 4px;
+}
+
+.submit-btn {
+  background: #000000;
+  border-radius: 5px;
+  padding: 12px 45px;
+  color: white;
+  font-family: 'Chakra Petch', sans-serif;
+  cursor: pointer;
+  border: none;
+}
+
+/* <a> element's text */
+a.linked-text {
+  font-size: 16px;
+  color: #FF5959;
+  text-decoration: none;
+}
+
+/* Grayish small text */
+.small-para {
+  text-align: center;
+  color: #828282;
+  font-size: 14px;
+  margin: 3px 0;
+  line-height: 1.6;
+}
+
+@media only screen and (max-width:600px){
+  .input-box {
+    width: 290px;
+  }
+  .signup-w-btn {
+    width: 290px;
+  }
+  /* 'Or' line break */
+  div.or {
+    margin: 0 auto;
+    width: 290px;
+    position: relative;
+  } /* parent div */
+
+  div.or > img {
+    width: 290px;
+  } /* line img */
+}

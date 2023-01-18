@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/*Mobile main container*/
+.mobile_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*PC description*/
+.mobile_description{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.mobile_description h1{
+    margin-bottom: 35px;
+    padding: 0px 10px;
+}
+.mobile_description aside p{
+    padding: 0px 15px;
+}
+
+/*Download form stores*/
+.d_stores{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Phone mockup*/
+.m_container2{
+    margin-top: 0px;
+    margin-left: 65px;
+}
+.m_container2 img{
+    width: 250px;
+    height: 479.24px;
+}
+
+
+/*Media queries*/
+@media only screen and (max-width:600px){
+    /*Mobile main container*/
+    .mobile_wrapper{
+        display: block;
+    }
+    /*PC description*/
+    .mobile_description{
+        margin-top: 45px
+    }
+    .mobile_description h1{
+        font-size: 25px;
+    }
+    /*Dowlnload from stores*/
+    .m_container1{
+        margin-bottom: 50px;
+    }
+    /*Phone mockup*/
+    .m_container2{
+        margin-left: 0px;
+    }
+    .m_container2 img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:600px){
+    .mobile_wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    /*PC description*/
+    .mobile_description{
+        margin-top: 45px
+    }
+    .mobile_description h1{
+        font-size: 30px;
+    }
+    
+}
+
+@media only screen and (min-width:768px){
+    
+}
+
+@media only screen and (min-width:992px){
+    /*PC description*/
+    .mobile_description{
+        margin-top: 80px
+    }
+    .mobile_description h1{
+        font-size: 55px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    
+}

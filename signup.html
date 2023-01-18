@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - BALANCE</title>
+  <link rel="stylesheet" href="./CSS/signup.css">
+  <link rel="shortcut icon" href="./Image/favicon.svg" type="image/x-icon">
+</head>
+<body>
+  <a href="index.html"><img src="./Image/main-logo.svg" alt="Balance Logo" id="logo"></a>
+  <div class="signup-items">
+    <p class="create-acc">Create an account</p>
+    
+    <button class="signup-w-btn">
+      <img src="./Image/google_logo.svg" alt="Google">
+      <p>Continue with Google</p>
+    </button>
+
+    <button class="signup-w-btn">
+      <img src="./Image/apple_logo.svg" alt="Apple">
+      <p>Continue with Apple</p>
+    </button>
+
+    <div class="or">
+      <img src="./Image/line(or).svg" alt="Line">
+      <p>or</p>
+    </div>
+
+    <form>
+      <div>
+        <p>Email</p>
+      <input type="email" class="input-box" id="email" name="email" placeholder="Enter your email address" required>
+      </div>
+      <div>
+        <p>Password</p>
+      <input type="password" class="input-box" id="pw" name="passoword" placeholder="Create your password" required minlength="8" required>
+      </div>
+      <p class="small-para">
+        By clicking up “sign up”, you agree to Balance’s <a href="wip2.html" class="linked-text" style="font-size: 14px">Terms and Privacy</a>.
+      </p>
+      <input type="submit" value="SIGN UP" class="submit-btn" onclick="alert('Upon proceeding, you acknoledge that you have read, understood, and agreed to our Terms and Privacy.')">
+      <p>Already have a account? <a href="login.html" class="linked-text" style="margin-left: 15px;">Log in</a></p> 
+    </form>
+  </div>
+</body>
+</html>

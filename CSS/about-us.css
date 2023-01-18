@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --red:#FF5959;
+    --light-grey:#C8C8C8;
+}
+
+/*Intro banner*/
+.intro_banner{
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+}
+.intro_banner img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.intro_banner blockquote p{
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 25px;
+}
+.heading{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 900;
+    word-spacing: 3px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*Mission*/
+.mission_container{
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+.mission{
+    background-color: white;
+    width: 52%;
+    margin: 0 auto;
+    margin-top: 35px;
+    border-left: 3px solid #C8C8C8;
+    border-radius:0px 3px 3px 0px;
+}
+.mission aside p{
+    text-align: center;
+    line-height: 25px;
+    padding: 15px;
+}
+
+/*team intro*/
+.team_intro{
+    margin-top: 65px;
+}
+
+/* team cards */
+.team_cards_wrapper a{
+    text-decoration: none;
+    color: black;
+}
+.team_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+    width: 335px;
+    height: 150px;
+    box-shadow: 0 0 8px #EFEFEF;
+    text-align: center;
+}
+.team_cards img{
+    margin-right: 25px;
+}
+.m_ids h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.m_ids h4{
+    font-family: 'Chakra Petch';
+    font-weight: 600;
+    color: var(--red);
+}
+
+/*Members card details*/
+.m_cards{
+    margin: 0 auto;
+    background-color: white;
+    width: 665px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow:0px 0px 8px #EFEFEF;
+}
+/*Profile cards + members information*/
+ .p_cards{
+    width: 150px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.p_cards h4{
+    font-weight: 600;
+}
+.info_cards{
+    width: 80%;
+    font-family: 'Inter', sans-serif;
+}
+
+/*Handy extra postiton :3 JK */
+.p_card2{
+    width: 155px;
+}
+.p_card3{
+    width: 200px;
+}
+
+/*Contact*/
+.contact_container{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.contact_container h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding: 0px 20px;
+}
+.contact_container a{
+    text-decoration: none;
+}
+
+/*Contact us btn*/
+.contact_btn{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Chakra Petch',sans-serif;
+    font-size: 15px;
+    width: 140px;
+    height: 45px;
+    margin: 0 auto;
+    border: none;
+    margin:35px 0px;
+    cursor: pointer;
+}
+
+
+
+
+
+@media only screen and (max-width:600px){
+    /*Intro banner*/
+    .intro_banner{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .intro_banner blockquote p{
+        width: 80%;
+    }
+    /*Mission*/
+    .mission{
+        width: 90%;  
+    }
+    /*Team intro*/
+    .team_cards_wrapper{
+        margin-top: 35px;
+    }
+    .team_cards{
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    /*Members card details*/
+    .m_cards{
+        width: 80%;
+        height: 403px;
+        margin-bottom: 50px;
+    }
+    .m_card4{
+        height: 430px;
+    }
+    /*Profile cards + members information*/
+    .p_cards{
+        margin: 0 auto;
+    }
+    .p_cards img{
+        margin-top: 15px;
+    }
+    .info_cards{
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .info_cards p{
+        line-height: 22px;
+    }
+    /*Contact*/
+    .contact_container h1{
+        font-size: 24px;
+    }
+    
+}
+
+@media only screen and (min-width:600px){
+    /*Intro banner*/
+    .intro_banner{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .intro_banner blockquote p{
+        width: 85.2%;
+    }
+    /*Mission*/
+    .mission_container{
+     margin-top: 35px;   
+    }
+    .mission{
+        width: 95%;
+    }
+    /*Team intro*/
+    .team_intro{
+        margin-bottom: 50px;
+    }
+    .team_cards_wrapper{
+        margin-top: 35px;
+    }
+    .team_cards{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    /*Members card details*/
+    .m_cards{
+        width: 60%;
+        height: 405px;
+        margin-bottom: 50px;
+    }
+    /*Profile cards + members information*/
+    .p_cards{
+        margin: 0 auto;
+    }
+    .p_cards img{
+        margin-top: 25px;
+    }
+    .info_cards{
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .info_cards p{
+        line-height: 28px;
+    }
+    /*Contact*/
+    .contact_container h1{
+        font-size: 26px;
+    }
+    
+}
+
+@media only screen and (min-width:768px){
+    /*Intro banner*/
+    .intro_banner{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .heading{
+        font-size: 45px;
+    }
+    /*Mission*/
+    .mission_container{
+        margin-top: 80px;
+    }
+    .mission{
+        width: 85%;
+    }
+    /*team intro*/
+    .team_intro{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .team_cards_wrapper{
+        margin-top: 45px;
+    }
+    .team_cards{
+        margin: 0;
+    }
+    /* team cards row 1 + row 2*/
+    .team_cards_row1,.team_cards_row2{
+        display: flex;
+        justify-content: center;
+    }
+    /*Team intro cards*/
+    .team_card_1, .team_card_3{
+        margin-right: 35px;
+    }
+    /*team cards row 2*/
+    .team_cards_row2{
+        margin-top: 35px;
+    }
+    /*Members card details*/
+    .m_cards{
+        width: 665px;
+        height: 230px;
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*Profile cards + members information*/
+    .info_cards p{
+        margin: 15px;
+        line-height: 30px;
+    }
+    /*Contact*/
+    .contact_container h1{
+        font-size: 32px;
+    }
+}
+    
+@media only screen and (min-width:992px){
+    /*Intro banner*/
+    .intro_banner blockquote p{
+        width: 60%;
+    }
+    /*Mission*/
+    .mission{
+        width: 74%;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    /*Mission*/
+    .mission{
+        margin-top: 18px;
+    }
+    /*Team intro*/
+    .team_cards_wrapper{
+        margin-top: 45px;
+    }
+}
